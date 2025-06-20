@@ -68,8 +68,7 @@ const Jobs: React.FC = () => {
         <img className="w-screen h-xl" src="/staterfile/images/bg-header-desktop.svg" alt="" />
     </div>
       {/* Filter Bar */}
-      <div className="w-max mx-auto mb-8 flex flex-wrap gap-4 items-center bg-white p-4 rounded-lg shadow absolute
-      top-42 right-50 left-50 justify-center">
+      <div className="w-max mx-auto mb-8 flex flex-wrap gap-4 items-center bg-white p-4 rounded-lg shadow  justify-center">
         <div>
           <label className="mr-2 font-semibold">Role:</label>
           <select
