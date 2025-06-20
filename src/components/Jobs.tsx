@@ -118,7 +118,7 @@ const Jobs: React.FC = () => {
               setToolFilter('');
             }}
           >
-            <img className='bg-cyan-500 h-6 w-6' src="/staterfile/images/clear-svgrepo-com.svg" alt="" />
+            <img className='bg-cyan-200 h-6 w-6' src="/staterfile/images/clear-svgrepo-com.svg" alt="" />
           </button>
         )}
       </div>
