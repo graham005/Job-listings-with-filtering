@@ -68,7 +68,7 @@ const Jobs: React.FC = () => {
         <img className="w-screen h-xl" src="/staterfile/images/bg-header-desktop.svg" alt="" />
     </div>
       {/* Filter Bar */}
-      <div className="w-5xl mx-auto mb-8 flex flex-wrap gap-4 items-center bg-white p-4 rounded-lg shadow absolute
+      <div className="w-max mx-auto mb-8 flex flex-wrap gap-4 items-center bg-white p-4 rounded-lg shadow absolute
       top-42 right-50 left-50 justify-center">
         <div>
           <label className="mr-2 font-semibold">Role:</label>
@@ -135,7 +135,7 @@ const Jobs: React.FC = () => {
             <img
               src={job.logo}
               alt={job.company}
-              className="w-16 h-16 md:mr-6 mb-4 md:mb-0 rounded-full bg-gray-100 object-contain"
+              className="w-20 h-20 md:mr-6 mb-4 md:mb-0 rounded-full bg-gray-100 object-contain"
             />
             <div className="flex-1 w-full">
               <div className="flex items-center gap-4 mb-2">
